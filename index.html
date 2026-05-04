@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" type="text/css">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <title>Archive.org Free Search</title>
+</head>
+<body>
+  <div class="container afs">
+    AFS
+  </div>
+
+  <div class="container redirect">
+    <label for="redirect">
+      <input
+        id="redirect"
+        type="checkbox"
+        role="switch"
+      >
+      Redirect
+    </label>
+  </div>
+
+  <div class="container">
+    <div class="search-wrapper">
+      <input
+        id="file-name"
+        type="text"
+        placeholder="Search"
+        autofocus
+      >
+
+      <button
+        type="button"
+        class="search-btn"
+        onclick="search()"
+        aria-label="Search"
+      >
+        <img src="./assets/search.svg" alt="Search">
+      </button>
+    </div>
+
+    <p>Search for <i>publicly available</i> files (books, documents, etc.) using <a href="https://archive.org/advancedsearch.php" target="_blank">advanced search syntax</a></p>
+  </div>
+
+  <div class="container">
+    <a href="https://github.com/joaoguimaraens/afs"><img class="github-icon" src="./assets/github.svg" alt="GitHub"></a>
+  </div>
+
+  <script src="index.js" async></script>
+</body>
+</html>

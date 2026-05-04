@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.afs {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redirect {
+  margin-bottom: var(--pico-spacing);
+}
+
+.search-btn img {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.search-wrapper {
+  display: flex;
+  gap: calc(var(--pico-spacing) / 2);
+  width: min(60ch, 100%);
+}
+
+.github-icon {
+  width: 1.25em;
+  height: 1.25em;
+}
