@@ -4,8 +4,6 @@ function searchWithEnter(event) {
   }
 }
 
-document.addEventListener('keydown', searchWithEnter);
-
 function buildQuery(fileName) {
   const query = `${fileName} NOT access-restricted-item:true AND mediatype:(texts)`;
   return `https://archive.org/search?query=${encodeURIComponent(query)}`;
