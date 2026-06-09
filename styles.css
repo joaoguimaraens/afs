@@ -11,6 +11,7 @@ body {
 .afs {
   font-size: 5em;
   font-weight: bold;
+  user-select: none;
 }
 
 .container {
